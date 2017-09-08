@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38EFFF691F5EA3860095720E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFFF681F5EA3860095720E /* AppDelegate.swift */; };
+		38EFFF6B1F5EA3860095720E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFFF6A1F5EA3860095720E /* ViewController.swift */; };
+		38EFFF6E1F5EA3860095720E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EFFF6C1F5EA3860095720E /* Main.storyboard */; };
+		38EFFF701F5EA3860095720E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EFFF6F1F5EA3860095720E /* Assets.xcassets */; };
+		38EFFF731F5EA3860095720E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38EFFF711F5EA3860095720E /* LaunchScreen.storyboard */; };
+		38EFFF7E1F5EA3860095720E /* CityBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFFF7D1F5EA3860095720E /* CityBusTests.swift */; };
+		38EFFF891F5EA3860095720E /* CityBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EFFF881F5EA3860095720E /* CityBusUITests.swift */; };
+		38FE33831F5F8DC200DFCC9C /* SVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33821F5F8DC200DFCC9C /* SVC.swift */; };
+		38FE33851F5F920B00DFCC9C /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33841F5F920B00DFCC9C /* UIView+Ext.swift */; };
+		38FE33871F5F982100DFCC9C /* Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33861F5F982100DFCC9C /* Pay.swift */; };
+		38FE33891F5F9E0300DFCC9C /* PayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33881F5F9E0300DFCC9C /* PayCell.swift */; };
+		38FE338B1F5FC20200DFCC9C /* PayRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE338A1F5FC20200DFCC9C /* PayRecord.swift */; };
+		38FE338D1F5FC42800DFCC9C /* RecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE338C1F5FC42800DFCC9C /* RecordCell.swift */; };
+		38FE338F1F5FCC4600DFCC9C /* ReportTheloss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE338E1F5FCC4600DFCC9C /* ReportTheloss.swift */; };
+		38FE33911F5FDBA500DFCC9C /* TransactionQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33901F5FDBA500DFCC9C /* TransactionQuery.swift */; };
+		38FE33931F5FE05C00DFCC9C /* PersonInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33921F5FE05C00DFCC9C /* PersonInformation.swift */; };
+		38FE33951F5FE0CE00DFCC9C /* MerchantInfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33941F5FE0CE00DFCC9C /* MerchantInfor.swift */; };
+		38FE33971F5FE22800DFCC9C /* RemoveLoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33961F5FE22800DFCC9C /* RemoveLoss.swift */; };
+		38FE33991F5FE3A800DFCC9C /* AnnualVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE33981F5FE3A800DFCC9C /* AnnualVerification.swift */; };
+		38FE339B1F5FE7FC00DFCC9C /* ModifiedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE339A1F5FE7FC00DFCC9C /* ModifiedData.swift */; };
+		78E427D667C48C0B3E156DBD /* Pods_CityBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7FF6C0451DC8CEE8F4AB5B /* Pods_CityBus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38EFFF7A1F5EA3860095720E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EFFF5D1F5EA3860095720E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EFFF641F5EA3860095720E;
+			remoteInfo = CityBus;
+		};
+		38EFFF851F5EA3860095720E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38EFFF5D1F5EA3860095720E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38EFFF641F5EA3860095720E;
+			remoteInfo = CityBus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F932B6ACB8582E79FCF333 /* Pods-CityBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityBus.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityBus/Pods-CityBus.release.xcconfig"; sourceTree = "<group>"; };
+		2C7FF6C0451DC8CEE8F4AB5B /* Pods_CityBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EFFF651F5EA3860095720E /* CityBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EFFF681F5EA3860095720E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38EFFF6A1F5EA3860095720E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38EFFF6D1F5EA3860095720E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38EFFF6F1F5EA3860095720E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38EFFF721F5EA3860095720E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38EFFF741F5EA3860095720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EFFF791F5EA3860095720E /* CityBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EFFF7D1F5EA3860095720E /* CityBusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusTests.swift; sourceTree = "<group>"; };
+		38EFFF7F1F5EA3860095720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EFFF841F5EA3860095720E /* CityBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EFFF881F5EA3860095720E /* CityBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityBusUITests.swift; sourceTree = "<group>"; };
+		38EFFF8A1F5EA3860095720E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FE337E1F5F804400DFCC9C /* CityBus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CityBus-Bridging-Header.h"; sourceTree = "<group>"; };
+		38FE33821F5F8DC200DFCC9C /* SVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVC.swift; sourceTree = "<group>"; };
+		38FE33841F5F920B00DFCC9C /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		38FE33861F5F982100DFCC9C /* Pay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pay.swift; sourceTree = "<group>"; };
+		38FE33881F5F9E0300DFCC9C /* PayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCell.swift; sourceTree = "<group>"; };
+		38FE338A1F5FC20200DFCC9C /* PayRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayRecord.swift; sourceTree = "<group>"; };
+		38FE338C1F5FC42800DFCC9C /* RecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCell.swift; sourceTree = "<group>"; };
+		38FE338E1F5FCC4600DFCC9C /* ReportTheloss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportTheloss.swift; sourceTree = "<group>"; };
+		38FE33901F5FDBA500DFCC9C /* TransactionQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionQuery.swift; sourceTree = "<group>"; };
+		38FE33921F5FE05C00DFCC9C /* PersonInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInformation.swift; sourceTree = "<group>"; };
+		38FE33941F5FE0CE00DFCC9C /* MerchantInfor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantInfor.swift; sourceTree = "<group>"; };
+		38FE33961F5FE22800DFCC9C /* RemoveLoss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveLoss.swift; sourceTree = "<group>"; };
+		38FE33981F5FE3A800DFCC9C /* AnnualVerification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnualVerification.swift; sourceTree = "<group>"; };
+		38FE339A1F5FE7FC00DFCC9C /* ModifiedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifiedData.swift; sourceTree = "<group>"; };
+		DEFE6F6CC118A439F9AB381E /* Pods-CityBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityBus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityBus/Pods-CityBus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38EFFF621F5EA3860095720E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E427D667C48C0B3E156DBD /* Pods_CityBus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EFFF761F5EA3860095720E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EFFF811F5EA3860095720E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EFFF5C1F5EA3860095720E = {
+			isa = PBXGroup;
+			children = (
+				38EFFF671F5EA3860095720E /* CityBus */,
+				38EFFF7C1F5EA3860095720E /* CityBusTests */,
+				38EFFF871F5EA3860095720E /* CityBusUITests */,
+				38EFFF661F5EA3860095720E /* Products */,
+				95A01DDD55FD67FB163E6804 /* Pods */,
+				789402C80A6B4AE3B442C724 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38EFFF661F5EA3860095720E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38EFFF651F5EA3860095720E /* CityBus.app */,
+				38EFFF791F5EA3860095720E /* CityBusTests.xctest */,
+				38EFFF841F5EA3860095720E /* CityBusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38EFFF671F5EA3860095720E /* CityBus */ = {
+			isa = PBXGroup;
+			children = (
+				38EFFF681F5EA3860095720E /* AppDelegate.swift */,
+				38EFFF6A1F5EA3860095720E /* ViewController.swift */,
+				38FE33821F5F8DC200DFCC9C /* SVC.swift */,
+				38FE33861F5F982100DFCC9C /* Pay.swift */,
+				38FE338A1F5FC20200DFCC9C /* PayRecord.swift */,
+				38FE338E1F5FCC4600DFCC9C /* ReportTheloss.swift */,
+				38FE33901F5FDBA500DFCC9C /* TransactionQuery.swift */,
+				38FE33921F5FE05C00DFCC9C /* PersonInformation.swift */,
+				38FE33941F5FE0CE00DFCC9C /* MerchantInfor.swift */,
+				38FE33961F5FE22800DFCC9C /* RemoveLoss.swift */,
+				38FE33981F5FE3A800DFCC9C /* AnnualVerification.swift */,
+				38FE339A1F5FE7FC00DFCC9C /* ModifiedData.swift */,
+				38FE33881F5F9E0300DFCC9C /* PayCell.swift */,
+				38FE338C1F5FC42800DFCC9C /* RecordCell.swift */,
+				38FE33841F5F920B00DFCC9C /* UIView+Ext.swift */,
+				38EFFF6C1F5EA3860095720E /* Main.storyboard */,
+				38EFFF6F1F5EA3860095720E /* Assets.xcassets */,
+				38EFFF711F5EA3860095720E /* LaunchScreen.storyboard */,
+				38EFFF741F5EA3860095720E /* Info.plist */,
+				38FE337E1F5F804400DFCC9C /* CityBus-Bridging-Header.h */,
+			);
+			path = CityBus;
+			sourceTree = "<group>";
+		};
+		38EFFF7C1F5EA3860095720E /* CityBusTests */ = {
+			isa = PBXGroup;
+			children = (
+				38EFFF7D1F5EA3860095720E /* CityBusTests.swift */,
+				38EFFF7F1F5EA3860095720E /* Info.plist */,
+			);
+			path = CityBusTests;
+			sourceTree = "<group>";
+		};
+		38EFFF871F5EA3860095720E /* CityBusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38EFFF881F5EA3860095720E /* CityBusUITests.swift */,
+				38EFFF8A1F5EA3860095720E /* Info.plist */,
+			);
+			path = CityBusUITests;
+			sourceTree = "<group>";
+		};
+		789402C80A6B4AE3B442C724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7FF6C0451DC8CEE8F4AB5B /* Pods_CityBus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95A01DDD55FD67FB163E6804 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEFE6F6CC118A439F9AB381E /* Pods-CityBus.debug.xcconfig */,
+				18F932B6ACB8582E79FCF333 /* Pods-CityBus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38EFFF641F5EA3860095720E /* CityBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EFFF8D1F5EA3860095720E /* Build configuration list for PBXNativeTarget "CityBus" */;
+			buildPhases = (
+				23D8F29135994E8806171798 /* [CP] Check Pods Manifest.lock */,
+				38EFFF611F5EA3860095720E /* Sources */,
+				38EFFF621F5EA3860095720E /* Frameworks */,
+				38EFFF631F5EA3860095720E /* Resources */,
+				6D8C4E4D6076E46B7B0A4393 /* [CP] Embed Pods Frameworks */,
+				2F49A63EDA1A1EB2A4FF6BAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityBus;
+			productName = CityBus;
+			productReference = 38EFFF651F5EA3860095720E /* CityBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38EFFF781F5EA3860095720E /* CityBusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EFFF901F5EA3860095720E /* Build configuration list for PBXNativeTarget "CityBusTests" */;
+			buildPhases = (
+				38EFFF751F5EA3860095720E /* Sources */,
+				38EFFF761F5EA3860095720E /* Frameworks */,
+				38EFFF771F5EA3860095720E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EFFF7B1F5EA3860095720E /* PBXTargetDependency */,
+			);
+			name = CityBusTests;
+			productName = CityBusTests;
+			productReference = 38EFFF791F5EA3860095720E /* CityBusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38EFFF831F5EA3860095720E /* CityBusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EFFF931F5EA3860095720E /* Build configuration list for PBXNativeTarget "CityBusUITests" */;
+			buildPhases = (
+				38EFFF801F5EA3860095720E /* Sources */,
+				38EFFF811F5EA3860095720E /* Frameworks */,
+				38EFFF821F5EA3860095720E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EFFF861F5EA3860095720E /* PBXTargetDependency */,
+			);
+			name = CityBusUITests;
+			productName = CityBusUITests;
+			productReference = 38EFFF841F5EA3860095720E /* CityBusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38EFFF5D1F5EA3860095720E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "小黄star";
+				TargetAttributes = {
+					38EFFF641F5EA3860095720E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NL4V5W4F62;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					38EFFF781F5EA3860095720E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5P3CS2G568;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38EFFF641F5EA3860095720E;
+					};
+					38EFFF831F5EA3860095720E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5P3CS2G568;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38EFFF641F5EA3860095720E;
+					};
+				};
+			};
+			buildConfigurationList = 38EFFF601F5EA3860095720E /* Build configuration list for PBXProject "CityBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38EFFF5C1F5EA3860095720E;
+			productRefGroup = 38EFFF661F5EA3860095720E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38EFFF641F5EA3860095720E /* CityBus */,
+				38EFFF781F5EA3860095720E /* CityBusTests */,
+				38EFFF831F5EA3860095720E /* CityBusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38EFFF631F5EA3860095720E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EFFF731F5EA3860095720E /* LaunchScreen.storyboard in Resources */,
+				38EFFF701F5EA3860095720E /* Assets.xcassets in Resources */,
+				38EFFF6E1F5EA3860095720E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EFFF771F5EA3860095720E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EFFF821F5EA3860095720E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23D8F29135994E8806171798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F49A63EDA1A1EB2A4FF6BAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityBus/Pods-CityBus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8C4E4D6076E46B7B0A4393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CityBus/Pods-CityBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38EFFF611F5EA3860095720E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FE33871F5F982100DFCC9C /* Pay.swift in Sources */,
+				38FE338F1F5FCC4600DFCC9C /* ReportTheloss.swift in Sources */,
+				38FE33951F5FE0CE00DFCC9C /* MerchantInfor.swift in Sources */,
+				38FE33991F5FE3A800DFCC9C /* AnnualVerification.swift in Sources */,
+				38FE33851F5F920B00DFCC9C /* UIView+Ext.swift in Sources */,
+				38FE338D1F5FC42800DFCC9C /* RecordCell.swift in Sources */,
+				38FE33831F5F8DC200DFCC9C /* SVC.swift in Sources */,
+				38FE338B1F5FC20200DFCC9C /* PayRecord.swift in Sources */,
+				38EFFF6B1F5EA3860095720E /* ViewController.swift in Sources */,
+				38FE33931F5FE05C00DFCC9C /* PersonInformation.swift in Sources */,
+				38FE339B1F5FE7FC00DFCC9C /* ModifiedData.swift in Sources */,
+				38FE33911F5FDBA500DFCC9C /* TransactionQuery.swift in Sources */,
+				38FE33891F5F9E0300DFCC9C /* PayCell.swift in Sources */,
+				38EFFF691F5EA3860095720E /* AppDelegate.swift in Sources */,
+				38FE33971F5FE22800DFCC9C /* RemoveLoss.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EFFF751F5EA3860095720E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EFFF7E1F5EA3860095720E /* CityBusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38EFFF801F5EA3860095720E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EFFF891F5EA3860095720E /* CityBusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38EFFF7B1F5EA3860095720E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EFFF641F5EA3860095720E /* CityBus */;
+			targetProxy = 38EFFF7A1F5EA3860095720E /* PBXContainerItemProxy */;
+		};
+		38EFFF861F5EA3860095720E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38EFFF641F5EA3860095720E /* CityBus */;
+			targetProxy = 38EFFF851F5EA3860095720E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38EFFF6C1F5EA3860095720E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EFFF6D1F5EA3860095720E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38EFFF711F5EA3860095720E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38EFFF721F5EA3860095720E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38EFFF8B1F5EA3860095720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38EFFF8C1F5EA3860095720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38EFFF8E1F5EA3860095720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFE6F6CC118A439F9AB381E /* Pods-CityBus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NL4V5W4F62;
+				INFOPLIST_FILE = CityBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.CityBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CityBus/CityBus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38EFFF8F1F5EA3860095720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F932B6ACB8582E79FCF333 /* Pods-CityBus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NL4V5W4F62;
+				INFOPLIST_FILE = CityBus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.CityBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "CityBus/CityBus-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38EFFF911F5EA3860095720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = CityBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.CityBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityBus.app/CityBus";
+			};
+			name = Debug;
+		};
+		38EFFF921F5EA3860095720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = CityBusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.CityBusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityBus.app/CityBus";
+			};
+			name = Release;
+		};
+		38EFFF941F5EA3860095720E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = CityBusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.CityBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CityBus;
+			};
+			name = Debug;
+		};
+		38EFFF951F5EA3860095720E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5P3CS2G568;
+				INFOPLIST_FILE = CityBusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoou.CityBusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CityBus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38EFFF601F5EA3860095720E /* Build configuration list for PBXProject "CityBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EFFF8B1F5EA3860095720E /* Debug */,
+				38EFFF8C1F5EA3860095720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EFFF8D1F5EA3860095720E /* Build configuration list for PBXNativeTarget "CityBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EFFF8E1F5EA3860095720E /* Debug */,
+				38EFFF8F1F5EA3860095720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EFFF901F5EA3860095720E /* Build configuration list for PBXNativeTarget "CityBusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EFFF911F5EA3860095720E /* Debug */,
+				38EFFF921F5EA3860095720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EFFF931F5EA3860095720E /* Build configuration list for PBXNativeTarget "CityBusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EFFF941F5EA3860095720E /* Debug */,
+				38EFFF951F5EA3860095720E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38EFFF5D1F5EA3860095720E /* Project object */;
+}

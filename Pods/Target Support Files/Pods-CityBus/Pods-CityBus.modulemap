@@ -1,0 +1,6 @@
+framework module Pods_CityBus {
+  umbrella header "Pods-CityBus-umbrella.h"
+
+  export *
+  module * { export * }
+}
