@@ -18,6 +18,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     var confirmBtn = UIButton()
    var arr = NSArray()
 //    https://gitee.com/hxd123/ZJSMK_IOS
+//    冥冥中
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.init(colorLiteralRed: 239/255, green: 239/255, blue: 239/255, alpha: 1.0)
